@@ -140,7 +140,7 @@
   -->
   <model-viewer
     id="animal-viewer"
-    ios-src="ostrich.usdz"
+    ios-src="preguica.usdz"
     alt="Animal em extinção da Mata Atlântica"
     ar
     ar-modes="webxr scene-viewer quick-look"
@@ -182,7 +182,7 @@
     // ANTI-CACHE: o Scene Viewer (app do Google) baixa e guarda o .glb por URL.
     // Uma URL única por visita evita reaproveitar uma cópia travada de uso anterior.
     // (Para voltar ao comportamento normal, troque a linha por: viewer.setAttribute('src', MODEL_FILE);)
-    const MODEL_FILE = 'ostrich.glb';
+    const MODEL_FILE = 'preguica.glb';
     viewer.setAttribute('src', MODEL_FILE + '?cb=' + Date.now());
 
     function showStatus(msg, canReload) {
